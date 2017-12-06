@@ -1,0 +1,16 @@
+El programa se esta ejecutando...
+[restarDia]Exception:null
+[restarDia]Exception:null
+[restarDias]error: java.lang.NullPointerException
+[restarDias]error: java.lang.NullPointerException
+[iFechaIni] 0
+[iFechaFin] 0
+[iFechaIni2] null
+[iFechaFin2] null
+Pausa para Eliminar cuadratura_venta_verde sleep(60 seg)
+Pausa para Insertar FECHA_CREACION_ORDEN sleep(60 seg)
+[sb] SELECT  RELNUM,POMUMB,INUMBR,RELBL5 from cuadratura_oc_vtav_comp   where 1 = 1 and FECHA_INGRESO >= '0' AND FECHA_INGRESO <= '0' group by RELNUM,POMUMB,INUMBR,RELBL5 Having sum(CANTIDAD_COMP1)< max(CANTIDAD_COMP2) 
+[Ini paso 6]
+Pausa para Eliminar CUADRATURA_JPDNOVRET sleep(7200 seg)
+Archivos creados.
+El programa finalizo.
